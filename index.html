@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,7 +29,9 @@
     </div>
 </header>
 <section id="main">
-    <div class="animation-box"></div>
+    <div class="animation-box">
+        <div class="menu-place"></div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-7 offset-lg-5">
@@ -46,7 +50,7 @@
 </section>
 <section id="portfolio">
 <div class="container">
-    <row>
+    <div class="row">
         <div class="col-lg-6">
             <div class="section-title">
                 <h1 class="title">Наши проекты</h1>
@@ -54,20 +58,35 @@
         </div>
         <div class="col-lg-6">
             <div class="roulette">
+                </div>
+        </div></div>
 
+        <div class="project-carousel owl-carousel owl-theme">
+            <div class="project-item">
+            <img class="project-pic" src="images/project1.png" alt="">
+            <div class="project-properties">
+                <h5 class="project-title">ССК “ОЛИМП”</h5>
+                <h6 class="project-subtitle">Световое оформление форума “Шубы-2019”</h6>
+            </div>
+            </div>
+            <div class="project-item">
+                <img class="project-pic" src="images/project.png" alt="">
+            <div class="project-properties">
+                <h5 class="project-title">ССК “ОЛИМП”</h5>
+                <h6 class="project-subtitle">Световое оформление форума “Шубы-2019”</h6>
+            </div>
             </div>
         </div>
 
 
-    </row>
+
 </div>
-
-
-
 </section>
 
 
 
-
+<script src="./js/jquery.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
