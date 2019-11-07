@@ -30,3 +30,13 @@ $('.burger-menu').on('click', function (e) {
     $('.burger-menu').toggleClass('burger-open');
     $('.menu').toggleClass('menu-show');
 });
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 83) {
+            $('#navi').addClass('slow');
+        }
+        else {
+            $('#navi').removeClass('slow');
+        }
+    });});

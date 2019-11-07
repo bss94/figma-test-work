@@ -82,92 +82,103 @@
         margin: 0;
     !important;
     }
+
     .adress {
         text-align: left;
         width: auto;
-        height: auto;}
+        height: auto;
+    }
+
     .news-item {
         justify-content: start;
 
     }
-    .contact{
+
+    .contact {
         flex-direction: column;
     }
-    .title-section{
+
+    .title-section {
         padding: 10px 0;
     }
+
     .news-inf {
-        width: auto;}
+        width: auto;
+    }
 }
 
 @media (max-width: 768px) {
-.main-box {
-    text-align: center;
-}
+    .main-box {
+        text-align: center;
+    }
 
-.main-title {
-    width: auto;
-    height: auto;
-    font-size: 40px;
-    margin-top: 100px;
-}
+    .main-title {
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        margin-top: 100px;
+    }
 
-.main-subtitle {
-    width: auto;
-    height: auto;
-    font-size: 16px;
-    line-height: 22px;
-    margin: 29px 0 50px;
-    z-index: 1;
-}
+    .main-subtitle {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 29px 0 50px;
+        z-index: 1;
+    }
 
-.rent-title {
-    width: 85%;
-}
+    .rent-title {
+        width: 85%;
+    }
 
-.rent-carousel {
-    flex-wrap: wrap;
-}
+    .rent-carousel {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 543px) {
 
-#robe, #compulite {
-    flex-wrap: wrap;
-}
+    #robe, #compulite {
+        flex-wrap: wrap;
+    }
 
-.catalog-item {
-    width: 350px;
-    height: 300px;
-}
+    .catalog-item {
+        width: 350px;
+        height: 300px;
+    }
 
-.catalog-item img {
-    width: 350px;
-    height: 100%;
-}
+    .catalog-item img {
+        width: 350px;
+        height: 100%;
+    }
 
-.catalog-box {
-    width: 265px;
-    height: 86px;
-    background: #005BC1;
-    position: absolute;
-    bottom: 15px;
-    right: 0;
-    display: flex;
-    align-items: center;
-}
+    .catalog-box {
+        width: 265px;
+        height: 86px;
+        background: #005BC1;
+        position: absolute;
+        bottom: 15px;
+        right: 0;
+        display: flex;
+        align-items: center;
+    }
 
-.catalog-box h4 {
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: 0.05em;
+    .catalog-box h4 {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
 
-}
+    }
+
     #portfolio .owl-nav {
-        display: none;}
-    .site-nav-item{
+        display: none;
+    }
+
+    .site-nav-item {
         margin: 0;
     }
+
     .site-nav-item ul {
         margin-right: 5px;
     }
@@ -176,7 +187,8 @@
 @media (max-width: 375px) {
     .all-news {
         width: auto;
-    display: block;
-    text-align: center;}
+        display: block;
+        text-align: center;
+    }
 
 }
