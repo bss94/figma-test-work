@@ -8,7 +8,9 @@
     #catalog, #rent, #portfolio, #news {
         padding: 20px 0;
     }
-
+    .menu-anim {
+        top: 344px;
+    }
     .menu {
         display: none;
     }
@@ -19,7 +21,7 @@
 
     .menu {
         position: absolute;
-        top: 58px;
+        top: 80px;
         width: 100%;
         left: 0;
         z-index: 2;
@@ -139,6 +141,7 @@
 
 @media (max-width: 543px) {
 
+
     #robe, #compulite {
         flex-wrap: wrap;
     }
@@ -152,7 +155,10 @@
         width: 350px;
         height: 100%;
     }
-
+    nav{justify-content: flex-end}
+nav .right-margin{
+    margin: 10px;
+}
     .catalog-box {
         width: 265px;
         height: 86px;
@@ -189,6 +195,78 @@
         width: auto;
         display: block;
         text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .catalog-item {
+        width: 300px;
+        height: 300px;
+    }
+
+    .catalog-item img {
+        width: 300px;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 19px;
+        padding-left: 79px;
+        margin-bottom: 29px;
+    }
+
+
+    .slide-text {
+        width: 220px;
+        height: 152px;
+    }
+    .rent-title {
+        padding: 30px 18px;
+        font-size: 15px;
+    }
+
+    .logo{
+        position: absolute;
+        left: 10px;
+    }
+    .logo img {
+        width: 140px;
+        height: 48px;
+    }
+    nav {
+        height: 58px;
+    }
+    .animation-box {
+        top: 58px;
+    }
+    .menu-anim{
+    top:323px
+    }
+    .menu {
+        top: 58px;
+    }
+
+
+    .site-nav-item {
+
+        display: block;
+    }
+    .slide-item {
+     padding: 3px;
+    }
+    .title:after {
+    width: 35px;
+    left: 35px;
+    }
+    .title:before {
+    width: 70px;
+    }
+    .news-date {
+    top: 257px;
     }
 
 }
+@media (max-width: 321px) {
+.rent-title {
+
+    font-size: 16px;
+}}
